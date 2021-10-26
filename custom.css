@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');
+
+.custom-font{
+  font-family: 'Lobster', cursive;
+}
+
+.custom-hind{
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
+
+#myVideo {
+    position:relative;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+  .black-overlay{
+      position: absolute;
+      top: 0%;
+      right: 0%;
+      background-color: rgba(0,0,0,0.2);
+      width: 100%;
+      height: 119%;
+  }
+
+  .con-with-us{
+
+    position: absolute;
+      top: 83%;
+      right:45%;
+
+  }
+
+  
+  @keyframes example {
+
+    0% { top: 90%; right: 50%; }
+    25% { top: 93%; right: 50%; }
+    50% { top: 90%; right: 50%; }
+    75% { top: 93%; right: 50%; }
+   
+   }
+
+
+  .icon-button{
+      position: absolute;
+      top: 90%;
+      right:50%;
+
+      animation-name: example;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      
+  }
+
+  .image-bg{
+
+    background-image: url("../img/reg-bg-crop.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 100%;
+    
+
+  }
+
+  image{
+      position: relative;
+  }
+
+  .count{
+      position: absolute;
+      top: 116%;
+      right: 0%;
+     /* background-color: rgba(0,0,0,0.2);*/
+      width: 100%;
+      height: 80%;
+  }
+
+  .count-text{
+      position: absolute;
+      top: 116%;
+      right: 10%;
+      
+    margin-top: 171px;
+
+
+  }
+
+  .menu{
+
+    position: absolute;
+    top: 179%;
+    right: 4%;
+
+  }
+
+  .reg-card{
+
+    position: absolute;
+    top: 191%;
+    right: 0%;
+
+  }
+
+
+
+  .adv{
+      margin-top: 100px;
+  }
+
+  .custom-card{
+    width: 395px;
+    height: 472px;
+    border-radius: 300px !important;
+  }
+
+  .vl {
+    border-left: 3px  ;
+    height: 425px;
+    margin-left: 85px;
+    width: 4px;
+    background-image: linear-gradient(#FCFCFC, #29ABE2, #FCFCFC);
+
+  }
+
+  .vl1 {
+    border-left: 3px  ;
+    height: 1000px;
+    margin-left: 85px;
+    width: 4px;
+    padding: 0px;
+    background-image: linear-gradient(#FCFCFC, #29ABE2, #FCFCFC);
+
+  }
+
+  .hl {
+    border-left: 3px  ;
+    width: 400px;
+    height: 4px;
+    background-image: linear-gradient(to right,#FCFCFC, #29ABE2, #FCFCFC);
+
+  }
+
+  .hl1 {
+    width: 219px;
+    height: 4px;
+    background-image: linear-gradient(to right,#FCFCFC, #29ABE2, #FCFCFC);
+
+  }
+
+  .special-card {
+
+      background-color: rgba(0, 0, 0, 0.3) !important;
+     
+    }
+
+    ::placeholder{
+      color: white !important;
+    }
+
+
+    .review-card{
+
+      position: absolute;
+      top: 200%;
+      right: 10%;
+
+    }
+
+    .caro-indi{
+      background-color: black;
+    }
+
+    .carousel-control-prev-icon {
+      position: absolute;
+      bottom: 20px;
+      left: 514px;
+  }
+  
+  .carousel-control-next-icon {
+      position: absolute;
+      bottom: 20px;
+      right: 514px;
+  }
+
+ .btn-outline-info:hover{
+   border: none !important;
+ }
+
+ .btn-outline-dark:hover{
+  border: none !important;
+  
+}
+
+.storytop{
+  position: relative;
+}
+
+.storyreview{
+  position:absolute;
+  top: 30%;
+}
+.reg1{
+  padding-top: 110px;
+  display: flex;
+  justify-content: center;
+}
+@media only screen and (max-width: 1200px){
+  .reg1{
+    padding-top: 100px;
+  }
+}
+@media only screen and (max-width: 600px){
+  .reg1{
+    padding-top: 50px;
+  }
+}
+@media only screen and (max-width: 425px){
+  .reg1{
+    padding-top: 10px;
+  }
+}
+.submit{
+  border: 1px solid #29ABE2;
+  background-color: #29ABE2;
+  font-weight: 800;
+  color: white;
+}
+.submit:hover{
+  color: white;
+}
+.form-label{
+  color: black;
+}
+.chosen-single{
+  width: 100%;
+}
+.chosen-single span{
+  margin-top: -12px;
+  width: 100%;
+}
+.chosen-single b{
+  margin-top: 5px;
+}
+textarea::placeholder{
+  color: black;
+}
